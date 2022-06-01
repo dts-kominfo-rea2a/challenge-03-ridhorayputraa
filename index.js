@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = (belanjaan) =>{
     let row = [];
     for(i=0; i < belanjaan.length; i++){
-      row.push('- ' + belanjaan[i].nama+  'x' + belanjaan[i].kuantitas)
+      row.push('- ' + belanjaan[i].nama+  ' x ' + belanjaan[i].kuantitas)
     }
 
     return row;
